@@ -1,0 +1,50 @@
+﻿@{
+    ViewBag.Title = "اتصل بنا";
+}
+<div class="">
+    <div class="subContainer">
+        <h1>اتصل بنا</h1>
+
+        <p>نحن دائمًا في خدمتكم لأي استفسار أو مساعدة تحتاجونها. يمكنكم التواصل معنا عبر الطرق التالية:</p>
+
+        <div class="contact-info">
+            <ul>
+                <li><strong>الهاتف:</strong> <a href="tel:+1158066045">01158066045
+                                    <i class="fa fa-phone"></i>
+                     </a></li>
+                <li><strong>الواتساب:</strong> <a href="https://wa.me/1158066045"> 01158066045 <i class="fa fa-whatsapp"></i>
+
+</a></li>
+                <li><strong>البريد الإلكتروني:</strong> <a href="mailto:waelbadr332@gmail.com">waelbadr332@gmail.com</a></li>
+                <li><strong>العنوان:</strong> الرياض، المملكة العربية السعودية</li>
+            </ul>
+        </div>
+
+        <div class="social-icons">
+            <a href="https://facebook.com" target="_blank">facebook</a>
+            <a href="https://twitter.com" target="_blank">Twitter</a>
+            <a href="https://instagram.com" target="_blank">instagram</a>
+            <a href="https://instagram.com" target="_blank">Tik Tok</a>
+            <a href="https://instagram.com" target="_blank">Snapchat</a>
+        </div>
+
+        <h2>تواصل معنا</h2>
+        <div class="contact-form">
+
+            <form action="/submit_form" method="post">
+                <label for="name">الاسم</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">البريد الإلكتروني</label>
+                <input type="email" id="email" name="email" required>
+
+
+                <label for="message">الرسالة</label>
+                <textarea id="message" name="message" rows="6" required></textarea>
+
+                <button type="submit">إرسال</button>
+            </form>
+        </div>
+    </div>
+   
+</div>
